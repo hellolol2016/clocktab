@@ -5,6 +5,8 @@ div {
     top: 50vh;
     transform-origin: left;
     border-radius: 9px;
+    transition-duration: 1s;
+    transition-timing-function:cubic-bezier(.17,.67,.8,1.17); 
 }
 
 .hour {
